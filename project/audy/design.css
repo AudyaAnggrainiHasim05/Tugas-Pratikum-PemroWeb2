@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff6e5; 
+}
+
+header {
+    
+    background-color: #ff9f68; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+marquee {
+    font-size: 100px;
+    font-family: monospace;
+}
+
+.login-container, .content-container, .biography-container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1ab75; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label, p {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffb482; 
+    border-radius: 5px;
+}
+
+button, .btn {
+    background-color: #934c23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff8652; 
+}
+
+.profile-photo {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.content-container {
+    background-color: #ff9f68; 
+    color: white;
+}
